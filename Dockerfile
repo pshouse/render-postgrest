@@ -1,3 +1,3 @@
 FROM postgrest/postgrest
 
-CMD postgrest/postgrest
+CMD exec postgrest /etc/postgrest.conf
